@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "posts",
   "info": {
     "name": "Post"
   },
@@ -23,10 +25,7 @@
       "type": "richtext"
     },
     "categories": {
-      "collection": "category",
-      "via": "post"
+      "collection": "category"
     }
-  },
-  "connection": "default",
-  "collectionName": "posts"
+  }
 }
