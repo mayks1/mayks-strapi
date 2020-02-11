@@ -10,19 +10,22 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "categories": {
       "collection": "category"
